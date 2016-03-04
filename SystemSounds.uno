@@ -21,13 +21,14 @@ public class SystemSounds : NativeModule
 		return null;
 	}
 
-	static extern(!iOS) void PlayNotification()
-	{
-		debug_log("Notification sounds not supported on this platform.");
-	}
-
+	[Foreign(Language.ObjC)]
 	static extern(iOS) void PlayNotification()
 	@{
 		AudioServicesPlaySystemSound(1310);
 	@}
+
+	static extern(!iOS) void PlayNotification()
+	{
+		debug_log("Notification sounds not supported on this platform.");
+	}
 }
