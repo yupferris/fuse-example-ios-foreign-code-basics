@@ -1,5 +1,5 @@
 # Fuse iOS Foreign Code Basics Example
-Example project to accompany the "[iOS Foreign Code Basics](https://youtu.be/6voPRghiodk)" Fuse tutorial video. This is a super simple app that uses foreign code to play a system sound on iOS devices.
+Example project to accompany the "[Foreign Code Basics - Part 1 (iOS)](https://youtu.be/6voPRghiodk)" Fuse tutorial video. This is a super simple app that uses foreign code to play a system sound on iOS devices.
 
 ## Fuse version
 This example was produced with Fuse (beta) v0.9.11 (build 5893).
