@@ -2,13 +2,6 @@ using Uno;
 using Uno.Collections;
 using Fuse;
 using Fuse.Scripting;
-using Fuse.Reactive;
-
-//using iOS.AudioToolbox;
-
-//using Android.android.media;
-//using Android.android.app;
-//using iOS.AudioToolbox;
 
 using Uno.Compiler.ExportTargetInterop;
 
